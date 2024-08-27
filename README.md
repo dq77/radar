@@ -2,28 +2,9 @@
 
 爬取中国天气网数据并实时展示，基于vue3脚手架。
 
-## Recommended IDE Setup
+建议使用手机端访问。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+我劝你最好连个WiFi再打开下面的链接，中国天气网没有做图片优化，我爬到的降雨雷达拼图都很大，每张图都有2-3MB
 
-## Customize configuration
+访问链接：[https://www.767766.xyz/radar/](https://www.767766.xyz/radar/)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
