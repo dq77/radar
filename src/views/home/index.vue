@@ -19,7 +19,7 @@
         const time = item.slice(item.indexOf('>') + 1, item.indexOf('</'))
         return {
           time: time.replace(/年|月/g, "-").replace(/日|-时/g, " ").replace(/时/g, ":").replace(/分/g, ""),
-          pic: 'https' + item.slice(item.indexOf('http://') + 4, item.indexOf('png') + 3)
+          pic: item.slice(item.indexOf('https://'), item.indexOf('png') + 3)
         } 
       })
     } else { // 拼图
