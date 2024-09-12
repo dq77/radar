@@ -9,11 +9,12 @@
 
 爬取 [中国天气网](https://www.weather.com.cn/) 雷达数据并实时展示，基于vue3脚手架。
 
+本来是使用Python + selenium 爬取的，但效率太低。后来又改成Python + Xpath爬取，但是配置请求头踩了好多坑。最后又换回了js......
+**人生苦短，远离Python！**
 
+## 配置项目后端地址及配置nginx转发规则
 
-## 配置nginx转发规则
-
-首先在`src/views/home/util.js`中确认定义的域名(domainName)是否可用，**如果不可用需要更换域名**。
+首先在项目代码的`src/views/home/util.js`中确认定义的域名(domainName)是否可用，**如果不可用需要更换域名**。
 
 >  域名后面的请求前缀如'weather'和'totalweather'不要改
 >
