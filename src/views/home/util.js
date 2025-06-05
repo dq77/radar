@@ -2,7 +2,7 @@
 const util = {}
 
 // 请在此处设置好请求的域名
-const domainName = 'radar.domain.com'
+const domainName = 'reach-nginx.767766.xyz'
 
 util.cityInfo = {
   sy: `https://${domainName}/weather/product/radar1/index/procode/JC_RADAR_AZ9240_JB_V3.shtml`,
